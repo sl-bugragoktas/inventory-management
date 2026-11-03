@@ -14,7 +14,7 @@
 
           <div class="modal-body">
             <!-- Create mode: form -->
-            <form v-if="mode === 'create'" @submit.prevent="handleSubmit" class="po-form">
+            <form v-if="mode === 'create'" id="po-form-submit" @submit.prevent="handleSubmit" class="po-form">
               <div class="form-row">
                 <label for="po-supplier">Supplier Name</label>
                 <input
